@@ -83,7 +83,6 @@ def play_game(difficulty: str):
     """)
     
     while True:
-        clear_screen()
         keep_playing = input('\n| Would you like to keep playing? |\n| Play Again (1) | Quit(0) |\n');
         if keep_playing == '1':
            return
